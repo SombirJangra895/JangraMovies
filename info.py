@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22167428'))
-API_HASH = environ.get('API_HASH', 'f936053286f724b8a1df69729b28a6af')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6662678684:AAGIlfa5eAkeBHQ6WebDKL1aUtHsC-juZks")
+API_ID = int(environ.get('API_ID', '26989077'))
+API_HASH = environ.get('API_HASH', '426529434fc6123b502b65b74cde5196')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6895029297:AAE2ZCdvg4tNZHD4BJah2rdl7WR6tnrR3fc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -24,12 +24,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 STREAM_CAP = environ.get("STREAM_CAP", f"{script.STREAM_CAP}")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/2b2ebbfa4587add78c33c.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/2b2ebbfa4587add78c33c.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/2b2ebbfa4587add78c33c.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/db718ac4674475d5e0b1b.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/db718ac4674475d5e0b1b.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2b2ebbfa4587add78c33c.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1991522624 6841063536 1397005911').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1397005911 1846013746').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001992075364').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -45,8 +45,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hmmedia:hmmedia@hmmedia0.lttkndx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Jangra")
+DATABASE_URI = environ.get('DATABASE_URI', "
+mongodb+srv://sombirjangra895:Sj#8221916213@cluster0.qkuwg5b.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
