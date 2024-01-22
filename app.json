@@ -15,32 +15,32 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Singhsawan/PM-Shortner-Bot",
-    "repository": "https://github.com/Singhsawan/PM-Shortner-Bot",
+    "website": "https://github.com/SombirJangra895/JangraMovies.git",
+    "repository": "https://github.com/SombirJangra895/JangraMovies.git",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-"value":"6624330389:AAF2SF3vWP4VztPPdZAF8o6yQIOov8QlnpY",
+"value":"6895029297:AAE2ZCdvg4tNZHD4BJah2rdl7WR6tnrR3fc",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-"value":"24579842",
+"value":"26989077",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-"value":"ec6105bf1a02c98f837300546dc341d1",
+"value":"426529434fc6123b502b65b74cde5196",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-"value":"-1001867538832",
-            "required": false
+"value":"-1001992075364",
+            "required": true
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-"value":"1991522624",
+"value":"1397005911 1846013746",
             "required": true
         },
         "PICS": {
@@ -49,7 +49,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-"value":"-1001939252420",
+"value":"-1002123576000",
             "required": true
         },
         "AUTH_USERS": {
@@ -58,23 +58,23 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value":"-1001752626076",
-            "required": false
+            "value":"-1002139426300",
+            "required": true
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-"value":"mongodb+srv://happythehour:skumar(2006)@cluster0.wttyshn.mongodb.net/?retryWrites=true&w=majority",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - ",
+"value":"mongodb+srv://sombirjangra895:Sj#8221916213@cluster0.qkuwg5b.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB. For more help watch this video - ",
             "value":"",
             "required": false
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
             "value": "Telegram_files",
-            "required": false
+            "required": true
         }
     },
     "addons": [],
