@@ -45,7 +45,7 @@
         },
         "PICS": {
             "description": "https://telegra.ph/file/2b2ebbfa4587add78c33c.jpg",
-            "required": true
+            "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
