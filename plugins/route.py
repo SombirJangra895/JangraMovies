@@ -19,7 +19,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(_):
-    return web.Response(text="JK DEVLOPER 🥰")
+    return web.Response(text="Sombir JanGra 🥰")
 
 
 @routes.get(r"/watch/{path:\S+}", allow_head=True)
