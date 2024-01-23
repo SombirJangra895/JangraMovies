@@ -63,12 +63,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - ",
-"value":"mongodb+srv://sombirjangra895:Sj#8221916213@cluster0.qkuwg5b.mongodb.net/?retryWrites=true&w=majority",
+"value":"mongodb+srv://sombirjangra895:Sj#8221916213@jangra.0g7v6jj.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - ",
-            "value":"Cluster0",
+            "value":"jangra",
             "required": true
         },
         "COLLECTION_NAME": {
