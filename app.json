@@ -68,8 +68,8 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - ",
-            "value":"",
-            "required": false
+            "value":"Cluster0",
+            "required": true
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
