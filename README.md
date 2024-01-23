@@ -112,7 +112,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://github.com/SombirJangra895/JangraMovies.git">
+<a href="https://heroku.com/deploy?template=https://github.com/SombirJangra895/JangraMovies.git">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
