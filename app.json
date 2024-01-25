@@ -20,7 +20,7 @@ id{
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-"value":"6895029297:AAE2ZCdvg4tNZHD4BJah2rdl7WR6tnrR3fc",
+"value":"6895029297:AAE2ZCdvg4tNZHD4BJah2rdl7WR6tnrR4gt",
             "required": true
         },
         "API_ID": {
