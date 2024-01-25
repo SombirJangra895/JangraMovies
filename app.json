@@ -1,4 +1,4 @@
-{
+id{
     "name": "Ben-Url-Filter-Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
@@ -63,7 +63,7 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - ",
-"value":"mmongodb+srv://sombirjangra213:Sj#8221916213@cluster0.xgxvv51.mongodb.net/?retryWrites=true&w=majority",
+"value":"mmongodb+srv://sombirjangra213:Sj#123456789@cluster0.xgxvv51.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
